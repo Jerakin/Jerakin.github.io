@@ -1,6 +1,8 @@
 ---
 title: "Welcome to Jekyll!"
-published: false
+published: true
+image_sliders:
+  - version_1
 ---
 
 **Hello world**, this is my first Jekyll blog post.
@@ -73,3 +75,5 @@ one: Mark McGwire
 two: Sammy Sosa
 three: Ken Griffey
 ```
+
+{% include slider.html selector="version_1" %}

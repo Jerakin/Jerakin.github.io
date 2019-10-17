@@ -1,0 +1,18 @@
+---
+title: "Pokedex5E"
+published: true
+---
+
+I have for many years played Dungeons & Dragons, but I have never really been into homebrew content that changes when I saw a post on /r/dndnext about [Pokemon5E](https://www.reddit.com/r/Pokemon5e/). 
+
+![pokemon5e image](assets/protoyp)
+
+As you might expect this homebrew adds Pokémon to the world of D&D! Having grown up with Pokémon it peaked my interest and I decided that I would try it out. I grabbed a few friends and we started playing. As my players caught a few Pokémon it became apparent that a lot of book keeping would be required. Catching a Pokémon consisted of practically writing down a new character and if you have ever played D&D you know how time consuming that can be!
+
+This lead to me thinking that if I was going to continue playing this Homebrew I would want a way to make that easier on me. Now I work with making mobile games for a living so the next logical step for me was thinking that I could maybe throw together a app that just keep tracks of the Pokémons caught.
+
+I "converted" a few Pokémon into json data and proceded to build a prototype! I decided to use the same tool I use in my day to day work - [Defold](www.defold.com). Now Defold is a game engine and the app is 100% GUI stuff, in hindsight choosing Defold was probably not the best idea, but it made throwing together a prototype super fast!
+
+Of course the first prototype is bad - like really bad. It only showed some incredibly basic information.
+
+The biggest hurdle in my mind would be that there are so many Pokémon and I wouldn't want to manually copy all Pokémon info from the manual into a data format that the app could read. Luckily for me the creator of Pokémon5E is a bit of a excel sheet wizard and have created "DM and Player Sheets" where a player can have their Pokémon. This is all available on Google Sheets!
