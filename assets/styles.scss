@@ -53,3 +53,21 @@
   min-height: 100vh;
 }
 
+
+
+img {
+	display: block;
+	width: 50%;
+	height: auto;
+}
+
+.avatar {
+	max-width: 150px;
+	border-radius: 50% !important; 
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
