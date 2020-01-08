@@ -19,6 +19,11 @@
     width: 12px;
 }
 
+.container {
+  width:100%;
+  overflow: hidden;
+
+}
 .emoji {
   width: 18px;
   height: auto;
@@ -51,4 +56,10 @@
 
 .min-height-full {
   min-height: 100vh;
+}
+
+.img-inline {
+  max-width:35%!important;
+  height:auto;
+  float:right;
 }

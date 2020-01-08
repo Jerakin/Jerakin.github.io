@@ -1,5 +1,6 @@
 layout: stacked
 style: dark
+markdown: GFM
 
 plugins:
   - jekyll-octicons
@@ -21,7 +22,7 @@ projects:
   sort_by options:
   #   - pushed
     - stars
-  limit: 4
+  limit: 6
   exclude:
     archived: true
     forks: true
